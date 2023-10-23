@@ -24,3 +24,52 @@
 
 // Custom styles:
 
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.jumbotron-bg {
+  background: url('../img/pirate-ship.jpg') no-repeat center;
+  background-size: cover;
+
+  padding: 100px 0;
+  color: white;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+
+footer {
+  background-color: #20c997;
+  text-align: center;
+  padding: 5px 0;
+  color: black
+}
+
+
+.carousel-item {
+  padding: 20px;
+}
+
+.img-responsive{
+  width: 300px;
+  height: auto;
+  padding: 20px;
+}
+
+.author-name{
+  font-weight: bold;
+}
+
